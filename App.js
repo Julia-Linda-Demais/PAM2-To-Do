@@ -31,7 +31,7 @@ import { ApresentarUsuario } from './funcoes/apresentar_usuario.js'
 // Descobre o IP da máquina atual dinamicamente. Se não achar, usa o seu atual como fallback.
 const host = Constants.expoConfig?.hostUri?.split(':').shift() || '192.168.15.1';
 // export const BASE_URL = `http://${host}:3000`;
-export const BASE_URL = `http://localhost:${PORT}`;
+export const BASE_URL = `https://pam-2-to-do.vercel.app/`;
 
 
 
