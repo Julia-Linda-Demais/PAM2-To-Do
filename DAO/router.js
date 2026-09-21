@@ -10,7 +10,7 @@ app.use(cors());
 const conexao = mysql.createConnection({
   host: 'mysql-juliaapamzona.alwaysdata.net',
   user: 'juliaapamzona',
-  password: 'P@rangar1co',
+  password: '',
   database: 'juliaapamzona_novopam'
 });
 
